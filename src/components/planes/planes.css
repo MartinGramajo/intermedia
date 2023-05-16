@@ -1,0 +1,31 @@
+.cartas {
+  width: 430px;
+  height: 620px;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+  .cartas {
+    width: 365px;
+    height: 594px;
+    background: #ffffff;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+}
+
+.azul-precio {
+  color: #0b5adb;
+}
+
+.btn-precio {
+  width: 285px;
+  height: 62px;
+  background: #0b5adb !important;
+  border-radius: 20px;
+}
