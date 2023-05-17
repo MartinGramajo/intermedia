@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Nunito-Light";
+  src: url(./fonts/nunito/Nunito-Light.ttf);
+}
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url(./fonts/nunito/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito-Medium";
+  src: url(./fonts/nunito/Nunito-Medium.ttf);
+}
+@font-face {
+  font-family: "Nunito-SemiBold";
+  src: url(./fonts/nunito/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url(./fonts/nunito/Nunito-Bold.ttf);
+}
+@font-face {
+  font-family: "Nunito-ExtraBold";
+  src: url(./fonts/nunito/Nunito-ExtraBold.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Weight light  */
+.peso-300 {
+  font-family: "Nunito-light" !important;
+}
+/*Weight regular  */
+.peso-400 {
+  font-family: "Nunito-Regular" !important;
+}
+/*Weight medium  */
+.peso-500 {
+  font-family: "Nunito-Medium" !important;
+}
+/*Weight semiBold  */
+.peso-600 {
+  font-family: "Nunito-SemiBold" !important;
+}
+/*Weight bold  */
+.peso-700 {
+  font-family: "Nunito-Bold" !important;
+}
+/*Weight extraBold */
+.peso-800 {
+  font-family: "Nunito-ExtraBold" !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h2,h3,h4,h5,h6,p{
+  margin-bottom: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fs-16{
+  font-size:16px;
+}
+.fs-20{
+  font-size:20px;
 }
 
-.App-link {
-  color: #61dafb;
+.color-azul{
+  color:#0B5ADB ;
+}
+.color-blanco{
+  color: #fff ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fondo-blanco{
+  background-color: #fff ;
+}
+
+.fondo-azul{
+  background: linear-gradient(90deg, rgba(18,67,170,1) 0%, rgba(42,119,247,1) 100%);
+
 }
