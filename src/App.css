@@ -11,6 +11,10 @@
   src: url(./fonts/nunito/Nunito-Medium.ttf);
 }
 @font-face {
+  font-family: "Nunito-MediumItalic";
+  src: url(./fonts/nunito/Nunito-MediumItalic.ttf);
+}
+@font-face {
   font-family: "Nunito-SemiBold";
   src: url(./fonts/nunito/Nunito-SemiBold.ttf);
 }
@@ -35,6 +39,9 @@
 .peso-500 {
   font-family: "Nunito-Medium" !important;
 }
+.peso-500-italic {
+  font-family: "Nunito-MediumItalic" !important;
+}
 /*Weight semiBold  */
 .peso-600 {
   font-family: "Nunito-SemiBold" !important;
@@ -58,7 +65,18 @@ h1,h2,h3,h4,h5,h6,p{
 .fs-20{
   font-size:20px;
 }
-
+.fs-23{
+  font-size:23px;
+}
+.fs-28{
+  font-size:28px;
+}
+.fs-32{
+  font-size:32px;
+}
+.fs-45{
+  font-size:45px;
+}
 .color-azul{
   color:#0B5ADB ;
 }

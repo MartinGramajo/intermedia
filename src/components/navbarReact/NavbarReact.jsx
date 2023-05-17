@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Image, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "./navbarReact.css";
-import argentina from "../../assets/img/Flag_of_Argentina.png";
+import argentina from "../../assets/img/argentina.png";
 import logo from "../../assets/img/logo.png";
 
 export default function NavbarReact() {
@@ -71,7 +71,7 @@ export default function NavbarReact() {
                         <Nav className="ms-auto">
                             <Nav.Link href="#home">
                                 <p className="color-blanco fs-20 peso-500 me-2">
-                                    FACTURA ONLINE
+                                    PLANES
                                 </p>
                             </Nav.Link>
                             <Nav.Link href="#home">

@@ -1,0 +1,18 @@
+
+.boton-naranja{
+    background-color: #EF7F3C !important;
+    border-radius: 20px;
+    border: 0 !important;
+}
+
+.imagen-compu{
+    position: absolute;
+    width:38% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .imagen-compu{
+        position: absolute;
+        width:65% !important;
+    }
+}
