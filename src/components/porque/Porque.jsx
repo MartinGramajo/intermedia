@@ -52,7 +52,7 @@ const cartas2 = [
 
 export default function Porque() {
   return (
-    <div className="container">
+    <div className="container pt-5">
       <div className="text-center pt-4">
         <div className="d-none d-md-block">
           <h1 className="peso-800 fs-57">¿Por qué elegir a IntermediaSP?</h1>
