@@ -5,9 +5,15 @@ import "./planes.css";
 export default function Planes() {
   return (
     <div>
-      <div className="text-center">
-        <h3>Planes Web Hosting</h3>
-        <h4> lorem lorem lorem</h4>
+      <div className="text-center pt-5">
+        <div className="d-none d-md-block">
+          <h1 className="peso-800 fs-57 pt-5">Planes Web Hosting</h1>
+          <h6 className="peso-400 fs-23"> lorem lorem lorem</h6>
+        </div>
+        <div className="d-md-none d-block">
+          <h1 className="peso-800 fs-32">Planes Web Hosting</h1>
+          <h3 className="py-3 peso-400 fs-23">lorem lorem lorem</h3>
+        </div>
       </div>
       <div className="py-4">
         <Cartas />
