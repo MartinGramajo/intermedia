@@ -68,8 +68,8 @@ export default function Porque() {
         </div>
       </div>
       <div className="d-flex justify-content-evenly flex-wrap py-4">
-        {cartas.map((carta) => (
-          <div className="col-12 col-md-4 py-4">
+        {cartas.map((carta, i) => (
+          <div className=" col-12 col-md-12 col-lg-4 py-4" key={i}>
             <div className="text-center pb-2">
               <Image
                 className="iconos-width"
@@ -88,8 +88,8 @@ export default function Porque() {
         ))}
       </div>
       <div className="d-flex justify-content-evenly flex-wrap pb-5">
-        {cartas2.map((carta) => (
-          <div className="col-12 col-md-4 py-4">
+        {cartas2.map((carta, i) => (
+          <div className="col-12 col-md-12 col-lg-4  py-4" key={i}>
             <div className="text-center pb-2">
               <Image
                 className="iconos-width"
