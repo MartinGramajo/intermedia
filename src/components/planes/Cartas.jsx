@@ -39,7 +39,7 @@ export default function Cartas() {
     <div className="container">
       <div className="row">
         {datos.map((dato, i) => (
-          <div className="col-12 col-md-4 py-4">
+          <div className="col-12 col-md-12 col-lg-4 py-4" key={i}>
             <div className="d-flex justify-content-center">
               <div className="cartas">
                 <div className="text-center">
