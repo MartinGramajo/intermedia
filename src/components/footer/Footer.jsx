@@ -6,7 +6,7 @@ import instagram from "../../assets/img/Instagram.png";
 
 export const Footer = () => {
   return (
-    <div className="footer-bg">
+    <div className="footer-bg mt-auto">
       <div className="d-none d-md-block">
         <div className="container-fluid">
           <div className="d-flex justify-content-evenly text-white">

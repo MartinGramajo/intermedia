@@ -3,6 +3,7 @@ import { Button, Image } from "react-bootstrap";
 import vps from "../../assets/img/vps.png";
 import web from "../../assets/img/web.png";
 import dominio from "../../assets/img/dominios.png";
+import { Link } from "react-router-dom";
 
 const datos = [
   {
@@ -57,9 +58,10 @@ export default function Cartas() {
                   <h6 className="fs-16 peso-300">{dato.iva}</h6>
                 </div>
                 <div className="d-flex justify-content-center">
-                  <Button className="btn-precio">
-                    {" "}
-                    <span className="fs-20 peso-800"> COMPRAR</span>{" "}
+                  <Button className="btn-precio" as={Link} to="/pagar">
+                    <div className="d-flex align-items-center justify-content-center">
+                      <span className="fs-20 peso-800 mt-2"> COMPRAR</span>{" "}
+                    </div>
                   </Button>
                 </div>
               </div>
