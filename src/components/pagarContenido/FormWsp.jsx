@@ -94,7 +94,7 @@ export default function FormWsp() {
                   onChange={handleChange}
                 />
                 <Form.Control.Feedback type="invalid">
-                  Ingrese su nombre completo por favor.
+                  Ingrese su apellido completo por favor.
                 </Form.Control.Feedback>
               </Form.Group>
             </Row>
