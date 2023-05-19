@@ -1,0 +1,33 @@
+
+.acordeon-pf .accordion-button {
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+    padding-left: 70px;
+    border: 0.5px ;
+    border-radius: 0 !important;
+    padding-bottom: -1.5px;
+    
+}
+
+.acordeon-pf .accordion-button::after {
+    background-image: url(../../assets/img/mas.png);
+    background-position: center;
+    margin-left: 0 ;
+    
+}
+/*acordeon*/
+.acordeon-pf  .accordion-button:not(.collapsed)::after {
+    background-image: url(../../assets/img/menos.png);
+    background-position: center;
+    margin-left: 0;
+    
+
+}
+.acordeon-pf .accordion-item{
+    border: 0.5px solid #0B5ADB !important;
+    border-radius: 0 !important;
+}
+
+.padding-pf{
+    padding-bottom: 70px;
+}

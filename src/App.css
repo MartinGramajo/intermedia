@@ -74,6 +74,9 @@ p {
 .fs-20 {
   font-size: 20px;
 }
+.fs-22 {
+  font-size: 22px;
+}
 .fs-23 {
   font-size: 23px;
 }
@@ -108,4 +111,8 @@ p {
 
 .fondo-azul {
   background: linear-gradient(90deg, rgba(18, 67, 170, 1) 0%, rgba(42, 119, 247, 1) 100%);
+}
+
+.fondo-celeste{
+  background-color: #F3F7FE;
 }
