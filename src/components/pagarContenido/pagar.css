@@ -1,0 +1,72 @@
+.input-texto {
+  color: #575757;
+}
+
+.input-style {
+  height: 45px;
+  background: #eeeeee !important;
+  border-bottom: 1px solid #0b5adb !important;
+  border-radius: 10px !important;
+  color: #0b5adb !important;
+}
+
+.boton-contacto-wsp {
+  width: 300px !important;
+  height: 45px !important;
+  background: #25d366 !important;
+  border-radius: 22px !important;
+  margin-top: 24px;
+}
+
+.mercado-carta {
+  width: 340px;
+  height: 460px;
+  background: #eeeeee;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+}
+
+.mercado-logo {
+  width: 120px;
+}
+
+.boton-contacto-mercado {
+  width: 200px;
+  height: 50px;
+  background: #0b5adb;
+  border-radius: 20px !important;
+}
+
+.icono-wsp {
+  width: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .centrado {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .input-style {
+    width: 370px !important;
+  }
+
+  .padding-wsp {
+    padding: 30px;
+  }
+
+  .mercado-carta {
+    width: 320px;
+    height: 460px;
+  }
+}
+
+.content-mercado-carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 460px;
+}
