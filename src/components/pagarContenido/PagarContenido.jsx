@@ -1,5 +1,7 @@
 import React from "react";
+import "./pagar.css";
 import FormWsp from "./FormWsp";
+import { MercadoPago } from "./MercadoPago";
 
 export const PagarContenido = () => {
   return (
@@ -11,17 +13,19 @@ export const PagarContenido = () => {
         </h1>
       </div>
       <div className="d-md-none d-block">
-        <h1 className="peso-500-italic fs-16 py-5 text-center">
+        <h1 className="peso-500-italic fs-16 pt-5 text-center">
           Una vez de completado el pago un <br /> representante se comunicará{" "}
           <br /> contigo para asistirte <br />
           en el proceso de migración
         </h1>
       </div>
-      <div className="row">
-        <div className="col-12 col-md-6">
+      <div className="row py-5">
+        <div className="col-12 col-lg-6">
           <FormWsp />
         </div>
-        <div className="col-12 col-md-6">col2</div>
+        <div className="col-12 col-lg-6">
+          <MercadoPago />
+        </div>
       </div>
     </div>
   );
