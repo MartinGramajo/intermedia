@@ -65,6 +65,9 @@ p {
   margin-bottom: 0 !important;
 }
 
+.fs-12{
+  font-size: 12px;
+}
 .fs-14 {
   font-size: 14px;
 }
@@ -80,8 +83,14 @@ p {
 .fs-23 {
   font-size: 23px;
 }
+.fs-24 {
+  font-size: 24px;
+}
 .fs-28 {
   font-size: 28px;
+}
+.fs-30 {
+  font-size: 30px;
 }
 .fs-32 {
   font-size: 32px;
@@ -98,6 +107,11 @@ p {
 .fs-57 {
   font-size: 57px;
 }
+
+.pre-wrap{
+  white-space: pre-wrap;
+}
+
 .color-azul {
   color: #0b5adb;
 }
@@ -116,3 +130,4 @@ p {
 .fondo-celeste{
   background-color: #F3F7FE;
 }
+
