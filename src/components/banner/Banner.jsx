@@ -5,6 +5,7 @@ import banner from "../../assets/img/banner.png";
 import tilde from "../../assets/img/tilde.png";
 import tildeCelu from "../../assets/img/tilde-celu.png";
 import "./banner.css";
+import { Link } from "react-router-dom";
 
 export default function Banner() {
     return (
@@ -35,7 +36,7 @@ export default function Banner() {
                     <p className="peso-600 fs-45 mt-4 py-4">
                         ¡Para que tu web vuele en la nube!
                     </p>
-                    <Button className="boton-naranja my-4">
+                    <Button className="boton-naranja my-4" as={Link} to="/pagar">
                         <p className="peso-800 fs-23 mx-5 my-2">
                             CONTRATA HOY TU HOSTING
                         </p>
@@ -64,7 +65,7 @@ export default function Banner() {
                         ¡Para que tu web vuele en la nube!
                     </p>
                     <Button className="boton-naranja my-4">
-                        <p className="peso-800 fs-16 mx-4 my-2">
+                        <p className="peso-800 fs-16 mx-4 my-2" as={Link} to="/pagar">
                             CONTRATA HOY TU HOSTING
                         </p>
                     </Button>
@@ -74,7 +75,6 @@ export default function Banner() {
                     </p>
                 </div>
             </div>
-            
         </div>
     );
 }
