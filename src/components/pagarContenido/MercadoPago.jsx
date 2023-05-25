@@ -57,7 +57,7 @@ export const MercadoPago = () => {
               <Button
                 className="boton-contacto-mercado border-0 "
                 as={Link}
-                to="https://mpago.la/2caG6wQ"
+                to="https://www.google.com"
                 target="_blank"
                 size="sm"
                 type="submit"

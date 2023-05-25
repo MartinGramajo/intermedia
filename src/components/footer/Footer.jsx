@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="d-flex justify-content-evenly text-white">
             <div className="py-5">
               <div className="pb-4">
-                <h4 className="pb-2 peso-700 fs-28">Ubicacion</h4>
+                <h4 className="pb-2 peso-700 fs-28">Ubicación</h4>
                 <p className="peso-500 fs-16">
                   Tronador 3430 1B <br />
                   Edificio Tronador 3 <br />
@@ -64,7 +64,7 @@ export const Footer = () => {
         <div>
           <div className="text-center">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/intermediasp/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -76,7 +76,7 @@ export const Footer = () => {
               />
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.instagram.com/intermediasp/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -115,7 +115,7 @@ export const Footer = () => {
             </div>
             <div className="text-center pt-4 ">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/intermediasp/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -127,7 +127,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.instagram.com/intermediasp/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
