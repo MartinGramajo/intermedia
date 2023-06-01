@@ -30,7 +30,7 @@ export default function FormWsp() {
       )}`;
       Swal.fire({
         icon: "success",
-        title: "Mensaje enviado con éxito",
+        title: "Información enviado con éxito",
         showConfirmButton: false,
         timer: 2000,
       });
@@ -39,6 +39,10 @@ export default function FormWsp() {
       window.open(URL, "_blank");
     } else {
       setValidated(true);
+      Swal.fire({
+        icon: "error",
+        title: "No se pudo enviar el mensaje. Por favor verificar los datos",
+      });
     }
   };
 
