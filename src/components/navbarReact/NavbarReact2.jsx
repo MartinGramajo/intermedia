@@ -5,7 +5,7 @@ import argentina from "../../assets/img/argentina.png";
 import logo from "../../assets/img/logo.png";
 import { Link } from "react-router-dom";
 
-export default function NavbarReact() {
+export default function NavbarReact2() {
     return (
         <div>
             <Navbar className="fondo-blanco py-1">
@@ -124,22 +124,22 @@ export default function NavbarReact() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#planes"  className="ms-auto">
+                            <Nav.Link as={Link} to="/" href className="ms-auto">
                                 <p className="color-blanco fs-20 peso-500 me-2 ">
                                     PLANES
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#porQueNosotros" className="ms-auto">
+                            <Nav.Link as={Link} to="/" href className="ms-auto">
                                 <p className="color-blanco fs-20 peso-500 me-2">
                                     POR QUE NOSOTROS
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#faq" className="ms-auto">
+                            <Nav.Link as={Link} to="/" href className="ms-auto">
                                 <p className="color-blanco fs-20 peso-500 me-2">
                                     FAQ
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#contactanos" className="ms-auto">
+                            <Nav.Link as={Link} to="/" href className="ms-auto">
                                 <p className="color-blanco fs-20 peso-500 me-2">
                                     CONTACTANOS
                                 </p>

@@ -4,7 +4,7 @@ import wsp from "../../assets/img/WhatsApp.png";
 
 export default function Comunicate() {
     return (
-        <div>
+        <div id="contactanos">
             <div className="container acordeon-pf d-none d-lg-block py-5">
                 <h1 className="peso-800 fs-57 text-center pt-5">
                     Comunícate con Nosotros

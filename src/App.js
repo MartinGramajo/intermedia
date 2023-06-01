@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import { Footer } from "./components/footer/Footer";
 import { Pagar } from "./pages/Pagar";
 import ScrollToTop from "./components/ScrollToTop";
-import NavbarReact from "./components/navbarReact/NavbarReact";
 
 
 
@@ -13,7 +12,6 @@ function App() {
     <div className="d-flex flex-column min-vh-100">
       <BrowserRouter>
         <ScrollToTop />
-        <NavbarReact />
         <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/pagar" element={<Pagar />} />

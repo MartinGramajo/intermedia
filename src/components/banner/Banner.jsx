@@ -36,7 +36,7 @@ export default function Banner() {
                     <p className="peso-600 fs-45 mt-4 py-4">
                         ¡Para que tu web vuele en la nube!
                     </p>
-                    <Button className="boton-naranja my-4" as={Link} to="/pagar">
+                    <Button className="boton-naranja my-4" as={Link} to="/pagar" href>
                         <p className="peso-800 fs-23 mx-5 my-2">
                             CONTRATA HOY TU HOSTING
                         </p>
@@ -64,8 +64,8 @@ export default function Banner() {
                     <p className="peso-600 fs-24 mt-4 py-4">
                         ¡Para que tu web vuele en la nube!
                     </p>
-                    <Button className="boton-naranja my-4">
-                        <p className="peso-800 fs-16 mx-4 my-2" as={Link} to="/pagar">
+                    <Button className="boton-naranja my-4" as={Link} to="/pagar" href>
+                        <p className="peso-800 fs-16 mx-4 my-2">
                             CONTRATA HOY TU HOSTING
                         </p>
                     </Button>

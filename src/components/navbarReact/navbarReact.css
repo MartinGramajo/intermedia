@@ -4,6 +4,10 @@
     font-family: "Nunito-SemiBold" !important;
 }
 
+.navbar-drop a:hover{
+    color:#0B5ADB;
+}
+
 @media screen and (max-width: 768px) {
     .navbar-drop a{
         font-size:12px;
