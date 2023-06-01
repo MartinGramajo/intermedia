@@ -23,21 +23,11 @@ export const Footer = () => {
               <div>
                 <h4 className="pb-2 peso-700 fs-28">Datos de contacto</h4>
                 <div className="peso-500 fs-16">
-                  <a
-                    className="text-white text-decoration-none  "
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a className="text-white text-decoration-none  " href="">
                     Tel.: +54 9 11 3369-0586 <br />
                   </a>
 
-                  <a
-                    className="text-white text-decoration-none "
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a className="text-white text-decoration-none " href="">
                     ventas@intermediasp.com
                   </a>
                 </div>
@@ -269,21 +259,11 @@ export const Footer = () => {
             <div>
               <h4 className="pb-2 fs-16 peso-800">Datos de contacto</h4>
               <div className="peso-500 fs-14">
-                <a
-                  className="text-white text-decoration-none"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a className="text-white text-decoration-none" href="">
                   Tel.: +54 9 11 3369-0586 <br />
                 </a>
 
-                <a
-                  className="text-white text-decoration-none"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a className="text-white text-decoration-none" href="">
                   ventas@intermediasp.com
                 </a>
               </div>
