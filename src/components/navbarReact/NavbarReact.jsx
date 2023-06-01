@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Image, Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import "./navbarReact.css";
-import argentina from "../../assets/img/argentina.png";
 import logo from "../../assets/img/logo.png";
 import { Link } from "react-router-dom";
 
@@ -44,19 +43,9 @@ export default function NavbarReact() {
                                 FACTURA ONLINE
                             </p>
                         </Nav.Link>
-                        <Image
-                            className="h-100 my-auto"
-                            src={argentina}
-                            fluid
-                            alt="bandera-argentina"
-                        />
-                        <NavDropdown
-                            className="navbar-drop"
-                            title="Argentina"
-                        ></NavDropdown>
                     </Nav>
                     {/* Modo Celular */}
-                    <Nav className="d-lg-none d-flex align-items-center justify-content-between mx-auto navbar-celu">
+                    <Nav className="d-lg-none d-flex align-items-center justify-content-between text-center mx-auto navbar-celu">
                         <Nav.Link href="https://www.intermediasp.com/ingresar-webmail/">
                             <p className="color-azul fs-12 peso-600">WEBMAIL</p>
                         </Nav.Link>
@@ -75,18 +64,6 @@ export default function NavbarReact() {
                                 54 11 50329999
                             </p>
                         </Nav.Link>
-                        <div className="d-flex flex-column ps-2 my-2 justify-content-center border-bottom-0 border-top-0 border-end-0 border-nav">
-                            <Image
-                                className="w-25 ms-2"
-                                src={argentina}
-                                fluid
-                                alt="bandera-argentina"
-                            />
-                            <NavDropdown
-                                className="navbar-drop d-flex align-items-center"
-                                title="Argentina"
-                            ></NavDropdown>
-                        </div>
                     </Nav>
                 </Container>
             </Navbar>
