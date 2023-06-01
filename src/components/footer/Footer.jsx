@@ -9,7 +9,7 @@ export const Footer = () => {
     <div className="footer-bg mt-auto">
       <div className="d-none d-md-block">
         <div className="container-fluid">
-          <div className="d-flex justify-content-evenly text-white">
+          <div className="d-flex justify-content-evenly text-white text-decoration-none">
             <div className="py-5">
               <div className="pb-4">
                 <h4 className="pb-2 peso-700 fs-28">Ubicación</h4>
@@ -22,41 +22,201 @@ export const Footer = () => {
 
               <div>
                 <h4 className="pb-2 peso-700 fs-28">Datos de contacto</h4>
-                <p className="peso-500 fs-16">
-                  Tel.: (54-11) 5032-9999 <br />
-                  ventas@intermediasp.com
-                </p>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none  "
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Tel.: +54 9 11 3369-0586 <br />
+                  </a>
+
+                  <a
+                    className="text-white text-decoration-none "
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ventas@intermediasp.com
+                  </a>
+                </div>
               </div>
             </div>
             <div className="py-5">
               <div className="pb-4">
                 <h4 className="pb-2 peso-700 fs-28">Compañía</h4>
-                <p className="peso-500 fs-16">
-                  Nosotros <br />
-                  Normas de uso <br />
-                  Programa de Afiliados
-                </p>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/compania/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Nosotros
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/normas-de-uso/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Normas de uso
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/programa-de-afiliados/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Programa de Afiliados
+                  </a>
+                </div>
               </div>
               <div>
                 <h4 className="pb-2 peso-700 fs-28">Ayuda</h4>
-                <p className="peso-500 fs-16">
-                  Contacto <br /> Área de clientes <br /> Webmail <br /> Factura
-                  online
-                </p>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/contacto/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Contacto
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/whmcs/index.php?rp=/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Área de clientes
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/ingresar-webmail/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Webmail
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://fc.ar.inter.net/get.php"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Factura online
+                  </a>
+                </div>
               </div>
             </div>
             <div className="py-5">
               <div className="pb-4">
                 <h4 className="pb-2 peso-700 fs-28">Servicios</h4>
-                <p className="peso-500 fs-16 ">
-                  Hosting Compartido <br /> Hosting Prestashop <br /> Hosting
-                  WordPress <br /> Hosting Magento <br /> Hosting Reseller{" "}
-                  <br /> VPS <br /> Dominios <br /> Certificados SSL
-                </p>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/web-hosting-compartido/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Hosting Compartido
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/web-hosting-compartido/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Hosting Prestashop
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/hosting-wordpress/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Hosting WordPress
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/web-hosting-compartido/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Hosting Magento
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/hosting-reseller/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Hosting Reseller
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/hosting-dedicado-cloud-servers-hd-ssd-vps/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    VPS
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/dominios/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Dominios
+                  </a>
+                </div>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/certificados/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Certificados SSL
+                  </a>
+                </div>
               </div>
               <div>
                 <h4 className="pb-2 peso-700 fs-28">Área soporte</h4>
-                <p className="peso-500 fs-16">Guías prácticas</p>
+                <div className="peso-500 fs-16">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/soporte/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Guías prácticas
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -88,7 +248,7 @@ export const Footer = () => {
               />
             </a>
           </div>
-          <div className="text-center text-white pt-2 pb-5">
+          <div className="text-center text-white text-decoration-none pt-2 pb-5">
             <p className="peso-500 fs-16">
               IntermediaSP “es marca de Interdotnet Argentina SA”
             </p>
@@ -96,7 +256,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="d-md-none d-block">
-        <div className="d-flex justify-content-center text-center text-white">
+        <div className="d-flex justify-content-center text-center text-white text-decoration-none">
           <div className="pt-5 pb-4">
             <div className="pb-4">
               <h4 className="pb-2 fs-16 peso-800">Ubicación</h4>
@@ -108,10 +268,25 @@ export const Footer = () => {
             </div>
             <div>
               <h4 className="pb-2 fs-16 peso-800">Datos de contacto</h4>
-              <p className="peso-500 fs-14">
-                Tel.: (54-11) 5032-9999 <br />
-                ventas@intermediasp.com
-              </p>
+              <div className="peso-500 fs-14">
+                <a
+                  className="text-white text-decoration-none"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tel.: +54 9 11 3369-0586 <br />
+                </a>
+
+                <a
+                  className="text-white text-decoration-none"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ventas@intermediasp.com
+                </a>
+              </div>
             </div>
             <div className="text-center pt-4 ">
               <a
@@ -142,43 +317,190 @@ export const Footer = () => {
           </div>
         </div>
         <div className="container">
-          <div className="d-flex justify-content-between text-white">
+          <div className="d-flex justify-content-between text-white text-decoration-none">
             <div>
               <div className="pb-4">
                 <h4 className="pb-3 fs-16 peso-800">Compañía</h4>
-                <p className="peso-500 fs-14">
-                  Nosotros <br />
-                  Normas de uso <br />
-                  Programa de Afiliados
-                </p>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/compania/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Nosotros
+                  </a>
+                </div>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/normas-de-uso/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Normas de uso
+                  </a>
+                </div>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/programa-de-afiliados/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Programa de Afiliados
+                  </a>
+                </div>
               </div>
               <div className="pb-5">
                 <h4 className="pb-3 fs-16 peso-800">Ayuda</h4>
-                <p className="peso-500 fs-14">
-                  Contacto <br /> Área de clientes <br /> Webmail <br /> Factura
-                  online
-                </p>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/contacto/?id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Contacto
+                  </a>
+                </div>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/whmcs/index.php?rp=/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Área de clientes
+                  </a>
+                </div>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/ingresar-webmail/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Webmail
+                  </a>
+                </div>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://fc.ar.inter.net/get.php"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Factura online
+                  </a>
+                </div>
               </div>
             </div>
             <div>
               <div className="pb-4 texto-direccion">
                 <h4 className="pb-2 fs-16 peso-800">Servicios</h4>
-                <p className="peso-500 fs-14 mb-4">
-                  Hosting Compartido <br /> Hosting Prestashop <br />
-                </p>
-                <p className="peso-500 fs-14 ">
-                  Hosting Magento <br /> Hosting Reseller <br /> VPS <br />{" "}
-                  Dominios <br /> Certificados SSL
-                </p>
+                <div>
+                  <div className="peso-500 fs-16">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/web-hosting-compartido/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Hosting Compartido
+                    </a>
+                  </div>
+                  <div className="peso-500 fs-14 mb-4">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/web-hosting-compartido/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Hosting Prestashop
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <div className="peso-500 fs-14">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/hosting-wordpress/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Hosting WordPress
+                    </a>
+                  </div>
+                  <div className="peso-500 fs-14">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/web-hosting-compartido/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Hosting Magento
+                    </a>
+                  </div>
+                  <div className="peso-500 fs-14">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/hosting-reseller/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Hosting Reseller
+                    </a>
+                  </div>
+                  <div className="peso-500 fs-14">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/hosting-dedicado-cloud-servers-hd-ssd-vps/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      VPS
+                    </a>
+                  </div>
+                  <div className="peso-500 fs-14">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/dominios/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Dominios
+                    </a>
+                  </div>
+                  <div className="peso-500 fs-14">
+                    <a
+                      className="text-white text-decoration-none"
+                      href="https://www.intermediasp.com/certificados/?id="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Certificados SSL
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="pb-4 texto-direccion">
                 <h4 className="pb-2 fs-16 peso-800">Área soporte</h4>
-                <p className="peso-500 fs-14">Guías prácticas</p>
+                <div className="peso-500 fs-14">
+                  <a
+                    className="text-white text-decoration-none"
+                    href="https://www.intermediasp.com/soporte/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Guías prácticas
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="text-center text-white py-4">
+        <div className="text-center text-white text-decoration-none py-4">
           <h6 className="pb-4">
             IntermediaSP “es marca de Interdotnet Argentina SA”
           </h6>
