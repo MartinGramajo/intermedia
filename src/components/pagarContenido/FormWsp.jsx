@@ -18,14 +18,14 @@ export default function FormWsp() {
     const newInput = { ...input, [name]: value };
     setInput(newInput);
   };
-  const texto = `Hola quisiera tener asesoramiento, estos son mis datos: me llamo ${input.nombre} ${input.apellido}, este es mi numero de contacto: ${input.cel} y mi email: ${input.email}`;
+  const texto = `Hola quisiera tener asesoramiento,me llamo ${input.nombre} ${input.apellido}, este es mi numero de contacto ${input.cel} y mi email ${input.email}. Muchas gracias por su Tiempo y atención.`;
   const form = useRef();
   const sendEmail = (e) => {
     const form = e.currentTarget;
     e.preventDefault();
     if (form.checkValidity() === true) {
       e.stopPropagation();
-      const URL = `https://api.whatsapp.com/send?phone=543814490276&text=${encodeURIComponent(
+      const URL = `https://api.whatsapp.com/send?phone=5491133690586&text=${encodeURIComponent(
         texto
       )}`;
       Swal.fire({
