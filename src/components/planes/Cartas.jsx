@@ -12,8 +12,9 @@ const datos = [
     titulo: "VPS",
     contenido1: "Servidores Privados Virtuales SSD ",
     contenido2: "Autonomía Performance SSD",
-    precio: "ARS 5700",
-    iva: "Desde ARS 5700 x mes + iva",
+    precio: "ARS 8.954",
+    iva: "Desde ARS 8.954 x mes + iva",
+    to: "/vps",
   },
   {
     id: 2,
@@ -21,8 +22,9 @@ const datos = [
     titulo: "Web Hosting",
     contenido1: "Soporte + Seguridad + Asesoramiento ",
     contenido2: "",
-    precio: "ARS 500",
-    iva: "Planes desde ARS 500 x mes + iva x el primer año",
+    precio: "ARS 968",
+    iva: "Planes desde ARS 968 x mes + iva x el primer año",
+    to: "/hosting",
   },
   {
     id: 3,
@@ -30,8 +32,9 @@ const datos = [
     titulo: "Dominios",
     contenido1: " Registrá tu dominio. ",
     contenido2: "Nombre + Dominio + Clientes en un click",
-    precio: "ARS 2200",
-    iva: "Desde ARS 2200 + iva x año",
+    precio: "ARS 6.655",
+    iva: "Desde ARS 6.655 + iva x año",
+    to: "/dominio",
   },
 ];
 
@@ -58,7 +61,7 @@ export default function Cartas() {
                   <h6 className="fs-16 peso-300">{dato.iva}</h6>
                 </div>
                 <div className="d-flex justify-content-center">
-                  <Button className="btn-precio" as={Link} to="/pagar">
+                  <Button className="btn-precio" as={Link} to={dato.to}>
                     <div className="d-flex align-items-center justify-content-center">
                       <span className="fs-20 peso-800 mt-2"> COMPRAR</span>{" "}
                     </div>
