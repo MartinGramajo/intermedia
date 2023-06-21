@@ -2,8 +2,10 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
 import { Footer } from "./components/footer/Footer";
-import { Pagar } from "./pages/Pagar";
 import ScrollToTop from "./components/ScrollToTop";
+import { PagarVps } from "./pages/PagarVps";
+import { PagarDominio } from "./pages/PagarDominio";
+import { PagarHosting } from "./pages/PagarHosting";
 
 
 
@@ -14,7 +16,9 @@ function App() {
         <ScrollToTop />
         <Routes >
           <Route path="/" element={<Home />} />
-          <Route path="/pagar" element={<Pagar />} />
+          <Route path="/vps" element={<PagarVps />} />
+          <Route path="/hosting" element={<PagarHosting />} />
+          <Route path="/dominio" element={<PagarDominio />} />
         </Routes>
         <Footer />
       </BrowserRouter>
