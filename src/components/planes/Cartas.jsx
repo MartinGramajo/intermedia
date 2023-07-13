@@ -29,7 +29,7 @@ const datos = [
   {
     id: 3,
     imagen: dominio,
-    titulo: "Dominios",
+    titulo: "Dominio",
     contenido1: " Registrá tu dominio. ",
     contenido2: "Nombre + Dominio + Clientes en un click",
     precio: "ARS 6.655",

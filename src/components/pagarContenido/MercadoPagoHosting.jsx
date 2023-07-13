@@ -42,7 +42,7 @@ export const MercadoPagoHosting = () => {
               <Button
                 className="boton-contacto-mercado border-0 "
                 as={Link}
-                to="https://www.mercadopago.com.ar/checkout/v1/payment/redirect/9deab03e-9afe-4033-acdd-1f1b3e56beeb/payment-option-form/?preference-id=180375511-3e3e8ea4-be07-4efb-b4f9-60c5966e4d1d&router-request-id=42fc1570-9f84-48e3-a35c-fb795b4c1050&source=link&p=77d45018d44de1d89562ab5f77cbd2c7#/"
+                to="https://mpago.la/1qVBFXS"
                 target="_blank"
                 size="sm"
                 type="submit"
