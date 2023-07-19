@@ -19,13 +19,13 @@ const cartas = [
     id: 2,
     icon: config,
     titulo: "WordPress en un Click",
-    contenido: "Instala tus aplicaciones fácilmente",
+    contenido: "Instala tus aplicaciones facilmente",
   },
   {
     id: 3,
     icon: candado,
     titulo: "Let´s Encrypt Gratis",
-    contenido: "Instalalo en tu web para certificar tu dominio",
+    contenido: "Activa la certificación de tu dominio",
   },
 ];
 
