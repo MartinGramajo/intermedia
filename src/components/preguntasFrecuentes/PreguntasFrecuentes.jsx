@@ -32,7 +32,7 @@ Plan Premium: Este plan es para sitios y aplicaciones más complejas con mucho t
     },
     {
         id: 3,
-        titulo: "¿En cuanto tiempo tendré activo el servicio de Hosting?",
+        titulo: "¿En cuánto tiempo tendré activo el servicio de Hosting?",
         descripcion: `El alta del servicio de hosting es inmediato y está automatizado.
 Una vez que realices el pago, tu instancia de Hosting se crea automáticamente.
 Te enviaremos por mail los datos de acceso para que puedas subir a tu espacio el sitio web o dar de alta las casillas de correo electrónico. Recibirás un correo electrónico a la dirección que dejaste al registrarte con los datos de acceso a tu panel de gestión cPanel®.`,
@@ -57,7 +57,7 @@ Se trata del nombre único que se muestra después de @ en las direcciones de co
         descripcion: `Necesitas un dominio para tener tu nombre propio en internet.
 Gracias al dominio tu dirección online será única y accesible.
 Así al publicar tu sitio web, llevarás tu marca online y le darás identidad propia a tu empresa.
-Además, tus clientes te reconocerán cuando les envíes un mail y reconocerán fácilmente tu marca.`,
+Además, tus clientes te reconocerán cuando les envíes un mail y reconocerán facilmente tu marca.`,
         descripcion2: "",
         tarjetaA: "",
         tarjetaB: "",
@@ -112,7 +112,7 @@ Si tu web crece mucho y el tráfico aumenta, te recomendamos contratar una VPS, 
     {
         id: 10,
         titulo: "¿Qué es el autoinstalador de aplicaciones web?",
-        descripcion: `Desde el panel de control de tu hosting vas a poder instalar fácilmente las aplicaciones que necesites: WordPress, Joomla!, Drupal, Magento, WHMCS y Prestashop entre otras.`,
+        descripcion: `Desde el panel de control de tu hosting vas a poder instalar facilmente las aplicaciones que necesites: WordPress, Joomla!, Drupal, Magento, WHMCS y Prestashop entre otras.`,
         descripcion2: "",
         tarjetaA: "",
         tarjetaB: "",
@@ -140,7 +140,7 @@ Es profesional y transmite confianza.
 Tu dirección de email y las de tu equipo estarán asociados a tu sitio web
 Es menos probable que tus emails sean marcados como spam
 Tendrás más posibilidades en la configuración de tu plataforma de correo
-Tus clientes te recordarán fácilmente por tu nombre de dominio`,
+Tus clientes te recordarán facilmente por tu nombre de dominio`,
         descripcion2: "",
         tarjetaA: "",
         tarjetaB: "",
@@ -206,7 +206,7 @@ El servicio no será renovado en el próximo período de facturación.`,
     },
     {
         id: 18,
-        titulo: "¿Que tipo de soporte tengo si contrato un Hosting?",
+        titulo: "¿Qué tipo de soporte tengo si contrato un Hosting?",
         descripcion: `Tendrás soporte telefónico, vía Whatsapp o mail.
 Nuestro horario de atención telefónica es de lunes a viernes de 8 a 20 hs`,
         descripcion2: "",
@@ -250,7 +250,7 @@ export default function PreguntasFrecuentes() {
                     Preguntas Frecuentes
                 </h1>
                 <h6 className="pt-3 peso-400 fs-23 text-center mb-5 pb-5">
-                    ¿Tenes dudas o preguntas? Escríbenos
+                    ¿Tienes dudas o preguntas? Escríbenos
                 </h6>
                 <Accordion className="padding-pf">
                     {arrayTextos.map((textos) => (
@@ -320,7 +320,7 @@ export default function PreguntasFrecuentes() {
                     Preguntas Frecuentes
                 </h1>
                 <h6 className="pt-4 peso-400 fs-20 text-center pb-5">
-                    ¿Tenes dudas o preguntas? <br /> Escríbenos
+                    ¿Tienes dudas o preguntas? <br /> Escríbenos
                 </h6>
                 <Accordion className="padding-pf">
                     {arrayTextos.slice(0, show).map((textos) => (
