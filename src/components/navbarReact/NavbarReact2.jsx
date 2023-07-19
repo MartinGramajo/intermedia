@@ -108,7 +108,7 @@ export default function NavbarReact2() {
                             </Nav.Link>
                             <Nav.Link as={Link} to="/" href className="ms-auto">
                                 <p className="color-blanco fs-20 peso-500 me-2">
-                                    PORQUE NOSOTROS
+                                    PORQUÉ NOSOTROS
                                 </p>
                             </Nav.Link>
                             <Nav.Link as={Link} to="/" href className="ms-auto">

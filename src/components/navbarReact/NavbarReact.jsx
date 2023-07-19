@@ -108,7 +108,7 @@ export default function NavbarReact() {
                             </Nav.Link>
                             <Nav.Link href="#porQueNosotros" className="ms-auto">
                                 <p className="color-blanco fs-20 peso-500 me-2">
-                                    PORQUE NOSOTROS
+                                    PORQUÉ NOSOTROS
                                 </p>
                             </Nav.Link>
                             <Nav.Link href="#faq" className="ms-auto">
